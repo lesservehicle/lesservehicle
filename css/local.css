@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body.mrbluesky
+{
+  background:cadetblue;
+}
+.pixel
+{
+  font-family: 'VT323';
+  color: white;
+}
+.pixel-head
+{
+  font-family: 'VT323';
+  color: white; 
+}
+.body {
+  background: saddlebrown;
+}
+
+.col {
+  padding: 10px;
+}
+
+.container-golden{
+  background: goldenrod;
+  border-style: outset;
+  border-color: sandybrown;
+  border-width: 7px;
+}
+
+.container-term{
+  background: darkslategray;
+  border-color: slategray;
+  border-width: 2px;
+  border-style: solid;
+  border-top-width: 0px;
+  background: rgba(0, 26, 26, 0.6);
+}
+
+.menu-bar{
+  background: slategray;
+  border-width: 2px;
+  border-bottom-width: 1px;
+  border-color: slategray;
+}
+
+.prompt {
+  color: cyan;
+}
+
+.highlight {
+  color: lime;
+  font-weight: normal;
+}
+
+.highlight:hover {
+  color: limegreen;
+  font-weight: normal;
+}
+
+
+html {
+  font-size: 1.1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
