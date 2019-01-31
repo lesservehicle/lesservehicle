@@ -2,66 +2,68 @@
 
 body.mrbluesky
 {
-  background:cadetblue;
+    background: teal;
 }
 .pixel
 {
-  font-family: 'VT323';
-  color: white;
+    font-family: 'VT323';
+    color: white;
 }
 .pixel-head
 {
-  font-family: 'VT323';
-  color: white; 
-}
-.body {
-  background: saddlebrown;
+    font-family: 'VT323';
+    color: white;
 }
 
 .col {
-  padding: 10px;
-}
-
-.container-golden{
-  background: goldenrod;
-  border-style: outset;
-  border-color: sandybrown;
-  border-width: 7px;
+    padding: 10px;
 }
 
 .container-term{
-  background: darkslategray;
-  border-color: slategray;
-  border-width: 2px;
-  border-style: solid;
-  border-top-width: 0px;
-  background: rgba(0, 26, 26, 0.6);
+    border-color: slategray;
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 0px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .menu-bar{
-  background: slategray;
-  border-width: 2px;
-  border-bottom-width: 1px;
-  border-color: slategray;
+    background: slategray;
+    border-width: 2px;
+    border-bottom-width: 1px;
+    border-color: slategray;
 }
 
 .prompt {
-  color: cyan;
+    color: cyan;
 }
 
 .highlight {
-  color: lime;
-  font-weight: normal;
+    color: lime;
+    font-weight: normal;
 }
 
 .highlight:hover {
-  color: limegreen;
-  font-weight: normal;
+    color: limegreen;
+    font-weight: normal;
 }
 
+dl {
+    margin:0;
+}
+
+dd {
+    margin:0;
+    line-height: normal;
+}
+
+p{
+    line-height: normal;
+}
 
 html {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
+    line-height: normal;
 }
 
 @include media-breakpoint-up(sm) {
